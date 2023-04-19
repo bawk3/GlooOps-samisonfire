@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   generators:
-  - clusters: {}
+  - clusters: {}  
   template:
     metadata:
       name: 'istio-lifecycle-{{name}}'
