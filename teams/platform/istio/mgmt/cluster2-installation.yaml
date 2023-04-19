@@ -24,7 +24,7 @@ spec:
           accessLogFile: /dev/stdout
           defaultConfig:
             envoyMetricsService:
-              address: gloo-mesh-agent.gloo-mesh:9977
+              address: gloo-mesh-agent.gloo-mesh:9977        
             proxyMetadata:
               ISTIO_META_DNS_CAPTURE: "true"
               ISTIO_META_DNS_AUTO_ALLOCATE: "true"
